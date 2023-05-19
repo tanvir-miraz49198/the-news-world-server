@@ -4,6 +4,7 @@ const cors = require('cors')
 const port = process.env.PORT || 5000;
 
 const categories = require('./data/categories.json')
+const categories = require('./data/news.json')
 
 
 app.use(cors());
